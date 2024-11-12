@@ -3,9 +3,12 @@
 ## 项目信息
 
 - 模板来源：[electron-vue-template](https://github.com/deluze/electron-vue-template)
-- Node版本：v18.9.0
+- Node版本：v18.9.0 `nvm use 18.9.0`
 - 包管理工具：cnpm  `npm install -g cnpm`
 - 安装：`cnpm install`
+- 运行：`npm run dev`
+- 打包：`npm run build:mac`
+- 打包：`npm run build:win`
 
 ## 截图
 

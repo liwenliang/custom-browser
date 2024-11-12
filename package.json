@@ -1,6 +1,6 @@
 {
   "name": "custom-browser",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "A Custom Browser Using Electron、Vue3、Vite",
   "main": "main/main.js",
   "scripts": {
