@@ -7,6 +7,10 @@
 - 包管理工具：cnpm  `npm install -g cnpm`
 - 安装：`cnpm install`
 
+## 截图
+
+![截图](./screenshot.png)
+
 ## 构建说明
 
 ### Windows构建
