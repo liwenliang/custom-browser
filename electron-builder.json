@@ -1,0 +1,47 @@
+{
+    "appId": "com.custom.browser",
+    "productName": "CustomBrowser",
+    "directories": {
+        "output": "dist"
+    },
+    "nsis": {
+        "oneClick": false,
+        "perMachine": false,
+        "allowToChangeInstallationDirectory": true,
+        "shortcutName": "CustomBrowser"
+    },
+    "win": {
+        "target": "msi",
+        "icon": "./src/resources/icons/icon.ico"
+    },
+    "mac": {
+        "target": "dmg",
+        "icon": "./src/resources/icons/icon.icns"
+    },
+    "files": [
+        {
+            "from": "build/main",
+            "to": "main",
+            "filter": [
+                "**/*"
+            ]
+        },
+        {
+            "from": "build/renderer",
+            "to": "renderer",
+            "filter": [
+                "**/*"
+            ]
+        },
+        {
+            "from": "src/main/static",
+            "to": "static",
+            "filter": [
+                "**/*"
+            ]
+        },
+        "!build",
+        "!dist",
+        "!scripts"
+    ]
+}

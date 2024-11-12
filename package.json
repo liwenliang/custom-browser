@@ -1,0 +1,31 @@
+{
+  "name": "custom-browser",
+  "version": "1.1.8",
+  "description": "A Custom Browser Using Electron、Vue3、Vite",
+  "main": "main/main.js",
+  "scripts": {
+    "dev": "node scripts/dev-server.js",
+    "build": "node scripts/build.js && electron-builder",
+    "build:win": "node scripts/build.js && electron-builder --win --x64",
+    "build:mac": "node scripts/build.js && electron-builder --mac",
+    "uv": "cross-env node ./scripts/update.version.js"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.4.1",
+    "chalk": "^4.1.2",
+    "chokidar": "^3.5.3",
+    "cross-env": "^7.0.3",
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0"
+  },
+  "dependencies": {
+    "uuid": "^11.0.2",
+    "vue": "^3.3.8"
+  },
+  "author": {
+    "name": "william.li",
+    "website": "https://www.houjiyi.com"
+  }
+}
